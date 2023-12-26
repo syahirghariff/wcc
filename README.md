@@ -8,7 +8,7 @@ Postcode-service to get postcode
 [GET] http://localhost:8070/postcode-service/api/v1/postcode/AB10%201XG
 
 ```json
-  {
+{
     "status": "OK",
     "response": {
         "postcode": "AB10 1XG",
@@ -25,17 +25,17 @@ Postcode-service to update postcode
 
 Request
 ```json
-  {
-      "postcode": "AB10 1XG",
-      "latitude": 57.14415601,
-      "longitude": -2.11486400
-  }
+{
+    "postcode": "AB10 1XG",
+    "latitude": 57.14415601,
+    "longitude": -2.11486400
+}
 ```
 
 
 Response 
 ```json
-  {
+{
     "status": "OK",
     "response": {
         "postcode": "AB10 1XG",
