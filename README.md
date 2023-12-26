@@ -3,8 +3,9 @@ Architecture Diagram
 ![architecture-diagram](./architecture-diagram.png)
 
 
-Request postcode-service get postcode 
-[GET] [http://localhost:8070/postcode-service/api/v1/postcode/{postcode}](http://localhost:8070/postcode-service/api/v1/postcode/AB10 1XG)
+Request postcode-service get postcode__
+
+[GET] http://localhost:8070/postcode-service/api/v1/postcode/AB10 1XG
 
 ```json
   {
