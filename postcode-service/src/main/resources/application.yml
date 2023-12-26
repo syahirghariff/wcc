@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: postcode-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/wcc_db
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}
+    properties:
+      hibernate:
+        ddl-auto: update
+        dialect: org.hibernate.dialect.MySQLDialect
+
+server:
+  port: 8071
+
